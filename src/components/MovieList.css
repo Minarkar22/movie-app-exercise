@@ -1,0 +1,15 @@
+.movie-card {
+    width: 200px;
+    height: 300px;
+    margin: 3px;
+    position: relative;
+    transition: transform 0.2s;
+}
+.movie-card:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+img {
+    max-width: 100%;
+    max-height: 100%;
+}

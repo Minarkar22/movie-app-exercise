@@ -1,0 +1,22 @@
+body {
+    background: #141414;
+    color: #fff;
+}
+
+/*.movie-list {*/
+/*    display: flex;*/
+/*    flex-wrap: wrap;*/
+
+/*}*/
+.movie-app {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 5px;
+    /*justify-content: space-between;*/
+}
+
+.searchBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
